@@ -1,4 +1,4 @@
-/*This one is an explanation (for me) of the code found in Eloquent Javascript, Chapter 3 - Parameters and Scope.
+/*This one is an explanation of the code found in Eloquent Javascript, Chapter 3 - Parameters and Scope.
 It's been unclear to me, so here I just explained it for myself to actually be 100% I understand it right.*/
 
 var x = "outside"; //declaring global variable
