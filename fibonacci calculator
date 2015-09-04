@@ -1,0 +1,13 @@
+function Fibonacci (num) {
+  var x = 0;
+  var y = 1;
+  var z = 1;
+  
+  for (i = 1; i < num; i++){
+    z = x + y;
+    x = y;
+    y = z;
+  }
+  return z;
+}
+Fibonacci(10);
