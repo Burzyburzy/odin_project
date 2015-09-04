@@ -3,7 +3,7 @@ function Fibonacci (num) {
   var y = 1;
   var z = 1;
   
-  for (i = 1; i < num; i++){
+  for (i = 0; i < num; i++){
     z = x + y;
     x = y;
     y = z;
