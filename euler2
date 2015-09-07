@@ -4,7 +4,7 @@
 //By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
 //find the sum of the even-valued terms.
 
-function fibonacciEvenTerms (num) {
+function fibonacciEvenTerms () {
   var sum = 0;
   var x = 1;
   var y = 2;
@@ -21,4 +21,4 @@ function fibonacciEvenTerms (num) {
   return sum;
 }
 
-fibonacciEvenTerms(400000);
+fibonacciEvenTerms();
