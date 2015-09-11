@@ -17,7 +17,7 @@ function f2() {
     console.log(x);
 }
 
-f2();               //for the f2 function, the global variable has changed its value to "inside f2"
+f2();               //thanks to the f2 function, the global variable has changed its value to "inside f2"
 
 var x = "outside";
 console.log(x);     //the global variable has changed it value back to "outside"
