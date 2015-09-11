@@ -1,23 +1,23 @@
 /*This one is an explanation of the code found in Eloquent Javascript, Chapter 3 - Parameters and Scope.
 It's been unclear to me, so here I just explained it for myself to actually be 100% I understand it right.*/
 
-var x = "outside"; //declaring global variable
+var x = "outside";          //declaring global variable
 console.log(x);   
 
 function f1 () {
-    var x = "inside f1"; //declaring local variable
+    var x = "inside f1";    //declaring local variable
     console.log(x);
 }
 
-f1();                   //calling local variable
-console.log(x);         // calling global variable
+f1();                       //calling local variable
+console.log(x);             // calling global variable
 
 function f2() {
     x = "inside f2";
     console.log(x);
 }
 
-f2();               //thanks to the f2 function, the global variable has changed its value to "inside f2"
+f2();                      //thanks to the f2 function, the global variable has changed its value to "inside f2"
 
 var x = "outside";
-console.log(x);     //the global variable has changed it value back to "outside"
+console.log(x);            //the global variable has changed it value back to "outside"
