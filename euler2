@@ -21,4 +21,4 @@ function fibonacciEvenTerms (number) {
   return sum;
 }
 
-fibonacciEvenTerms();
+fibonacciEvenTerms(4000000);
